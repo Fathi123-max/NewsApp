@@ -9,7 +9,7 @@ void main() {
     
     GetMaterialApp(
       
-      initialBinding: newsBinding(),
+      initialBinding: NewsBinding(),
       theme: ThemeData(useMaterial3: true),
      home: HomePage(),
     )

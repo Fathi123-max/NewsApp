@@ -23,10 +23,10 @@ class NewsController extends GetxController {
     var url = constants.geturl(country, category);
     var defurl = constants.getdefurl(country, category);
     var acurl = country.isEmpty ? await dio.get(defurl) : await dio.get(url);
-// print(value.data);
+print(acurl.statusCode);
 
     List<Article> articles = NewsModel.fromJson(acurl.data).articles;
-
     return articles;
   }
 }
+
