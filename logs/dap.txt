@@ -1,0 +1,23 @@
+!! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.60.1
+Flutter extension: 3.60.0 (activated)
+
+App: Visual Studio Code
+Version: 1.76.0
+Platform: linux
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+
+Logging Categories:
+    DAP
+
+Fri Mar 10 2023 [02:41:09 GMT+0200 (Eastern European Standard Time)] Log file started
+[02:41:09] [FlutterDaemon] [Error] /usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so: undefined symbol: g_tls_channel_binding_error_quark
+Failed to load module: /usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so
+/snap/flutter/130/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/../../../../lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so)
+Failed to load module: /usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so
+/snap/flutter/130/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/../../../../lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so)
+Failed to load module: /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+Fri Mar 10 2023 [02:42:45 GMT+0200 (Eastern European Standard Time)] Log file ended

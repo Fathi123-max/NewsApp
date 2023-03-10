@@ -1,0 +1,39 @@
+!! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.60.1
+Flutter extension: 3.60.0 (activated)
+
+App: Visual Studio Code
+Version: 1.76.0
+Platform: linux
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+
+Logging Categories:
+    FlutterDaemon
+
+Fri Mar 10 2023 [02:41:09 GMT+0200 (Eastern European Standard Time)] Log file started
+[02:41:09] [FlutterDaemon] [Info] Spawning /home/fathi/snap/flutter/common/flutter/bin/flutter with args ["daemon"]
+[02:41:09] [FlutterDaemon] [Info] ..  in /home/fathi/snap/flutter/common/flutter
+[02:41:09] [FlutterDaemon] [Info] ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
+[02:41:09] [FlutterDaemon] [Info]     PID: 59454
+[02:41:09] [FlutterDaemon] [Info] ==> [{"id":"1","method":"emulator.getEmulators"}]
+[02:41:09] [FlutterDaemon] [Info] Process /home/fathi/snap/flutter/common/flutter/bin/flutter terminated! null, SIGTERM
+[02:41:09] [FlutterDaemon] [Error] /usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so: undefined symbol: g_tls_channel_binding_error_quark
+Failed to load module: /usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so
+/snap/flutter/130/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/../../../../lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so)
+Failed to load module: /usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so
+/snap/flutter/130/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/../../../../lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so)
+Failed to load module: /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+[02:41:10] [FlutterDaemon] [Info] <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":60151}}]
+[02:41:10] [FlutterDaemon] [Info] ==> [{"id":"2","method":"device.enable"}]
+[02:41:10] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"status","message":"Starting device daemon..."}}]
+[02:41:10] [FlutterDaemon] [Info] <== [{"id":"2"}]
+[02:41:10] [FlutterDaemon] [Info] <== [{"id":"1","result":[]}]
+[02:41:14] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"linux","name":"Linux","platform":"linux-x64","emulator":false,"category":"desktop","platformType":"linux","ephemeral":false,"emulatorId":null,"sdk":"Ubuntu 22.04.1 LTS 5.15.0-43-generic","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[02:41:14] [FlutterDaemon] [Info] ==> [{"id":"3","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/media/fathi/New Volume/flutter_pre/newsApp/newsapp"}}]
+[02:41:14] [FlutterDaemon] [Info] <== [{"id":"3","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[02:42:45] [FlutterDaemon] [Info] ==> [{"id":"4","method":"daemon.shutdown"}]
+[02:42:45] [FlutterDaemon] [Info] <== [{"id":"4"}]
+Fri Mar 10 2023 [02:42:45 GMT+0200 (Eastern European Standard Time)] Log file ended
